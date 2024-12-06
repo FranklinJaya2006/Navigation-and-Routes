@@ -17,6 +17,7 @@ class _ThirdScreenState extends State<ThirdScreen> {
       endDrawer: const gambar(),
       appBar: AppBar(
         title: const Text('Third Screen'),
+        automaticallyImplyLeading: false,
       ),
       body: Center(
         child: ListView(

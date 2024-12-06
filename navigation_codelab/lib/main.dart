@@ -19,12 +19,12 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const FirstScreen(),
       routes: {
         '/first_screen': (context) => const FirstScreen(),
         '/second_screen': (context) => const SecondScreen(),
         '/third_screen': (context) => const ThirdScreen(),
       },
+      initialRoute: ('/first_screen'),
     );
   }
 }
